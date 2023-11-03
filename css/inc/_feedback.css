@@ -1,0 +1,26 @@
+.feedback__carousel_container{
+    min-width: 100%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.carousel_l{
+    position: relative;
+
+    background: var(--color-back-info);
+    /* display: flex;
+    flex-direction: column; */
+}
+.carousel-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel__block-feedback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
